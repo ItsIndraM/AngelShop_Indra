@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Beranda - Register dan Login Akun</title>
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang di Angel Shop</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <p>Ini adalah aplikasi yang memungkinkan Anda untuk mendaftar dan masuk ke akun Anda dengan mudah.</p>
+            <p>Pilih salah satu opsi di bawah ini untuk melanjutkan:</p>
+        </section>
+        <div class="button-container">
+            <button id="registerButton">Daftar Akun</button>
+            <button id="loginButton">Masuk Akun</button>
+        </div>
+
+        <div id="formContainer" style="display: none;">
+            <h2 id="formTitle"></h2>
+            <form id="userForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit" id="submitButton">Home</button>
+                <li><a href="home.html">Beranda</a></li>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Angel Shop ini. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
